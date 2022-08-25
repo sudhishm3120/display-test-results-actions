@@ -1,0 +1,24 @@
+{
+  "name": "display-test-results-actions",
+  "version": "1.0.0",
+  "description": "Displays test results as job summaries after the completion of a workflow. Takes in a XUnit .xml file that contains test results of a project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhishm3120/display-test-results-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudhishm3120/display-test-results-actions/issues"
+  },
+  "homepage": "https://github.com/sudhishm3120/display-test-results-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3"
+  }
+}
